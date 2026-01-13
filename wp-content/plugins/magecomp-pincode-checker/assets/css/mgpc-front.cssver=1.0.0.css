@@ -1,0 +1,44 @@
+.mgcppich-pincode-form {
+	display: flex;
+	gap: 0.5rem;
+	align-items: stretch;
+}
+
+.mgcppich-pincode-input {
+	flex: 1;
+	padding: 0.5rem 0.75rem;
+	border: 1px solid #ccc;
+}
+
+body .mgcppich-pincode-btn {
+	padding: 0 1rem;
+	background: #2271b1;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	transition: background 0.2s;
+	margin-top: 0px !important;
+}
+
+.mgcppich-pincode-btn:hover {
+	background: #1b5a8c;
+}
+
+.mgcppich-pin-delivery-messages {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.mgcppich-pincode-checker {
+	margin: 1rem auto !important;
+}
+
+.mgcppich-pincode-checker-title {
+	margin-bottom: 0.75rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
